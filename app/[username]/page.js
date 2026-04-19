@@ -27,14 +27,21 @@ const Username = ({ params }) => {
             <h2 className='text-2xl  font-bold my-5'>
               Supporters
             </h2>
-            <ul className='mx-5'>
+            <ul className='mx-5 text-lg'>
 
-              <li className='my-2'>Ali Donated $30 with a message</li>
-              <li className='my-2'>Ali Donated $30 with a message</li>
-              <li className='my-2'>Ali Donated $30 with a message</li>
-              <li className='my-2'>Ali Donated $30 with a message</li>
-              <li className='my-2'>Ali Donated $30 with a message</li>
-              <li className='my-2'>Ali Donated $30 with a message</li>
+              <li className='my-4 flex gap-2 items-center'>
+                <img width={33} src="/avatart.gif" alt="avatart" />
+                <span> Ali Donated <span className='font-bold'>$30</span>  with a message and "I support you bro lots of love ❤"</span>
+               </li>
+                 <li className='my-4 flex gap-2 items-center'>
+                <img width={33} src="/avatart.gif" alt="avatart" />
+                <span> Ali Donated <span className='font-bold'>$30</span>  with a message and "I support you bro lots of love ❤"</span>
+               </li>
+                 <li className='my-4 flex gap-2 items-center'>
+                <img width={33} src="/avatart.gif" alt="avatart" />
+                <span> Ali Donated <span className='font-bold'>$30</span>  with a message and "I support you bro lots of love ❤"</span>
+               </li>
+             
             </ul>
 
 
